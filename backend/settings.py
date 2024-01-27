@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     "django_extensions",
     # apps local
     "core",
-]
+    "account",
+    ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",

@@ -1,0 +1,22 @@
+{% extends './signup-base.html' %}
+{% load static %}
+
+{% block content %}
+  <!-- ===== Header Start ===== -->
+  {% include 'header.html' %}
+  <!-- ===== Header End ===== -->
+
+  <main>
+    <!-- ===== SignUp Form Start ===== -->
+    {% include 'signup-form.html' %}
+    <!-- ===== SignUp Form End ===== -->
+  </main>
+
+  <!-- ===== Footer Start ===== -->
+  {% include 'signup-footer.html' %}
+  <!-- ===== Footer End ===== -->
+
+  <!-- ====== Back To Top Start ===== -->
+  {% include 'signup-back.html' %}
+  <!-- ====== Back To Top End ===== -->
+{% endblock %}
